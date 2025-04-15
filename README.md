@@ -40,7 +40,7 @@ You are a helpful assistant that extracts structured data in **valid JSON format
 Always return only a JSON object—no explanations, no extra text.
 
 Use this suggested JSON schema:
-
+```json
 {
 "device": string,
 "mask_type": string (optional),
@@ -57,7 +57,7 @@ Use this suggested JSON schema:
 "components": [string] (optional),
 "compliance_status": string (optional)
 }
-
+```
 Only include fields relevant to the note. Omit fields not mentioned.
 
 ### Sample Schema to be used in the System Prompt
