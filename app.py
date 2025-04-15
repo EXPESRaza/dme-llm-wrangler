@@ -11,8 +11,8 @@ st.title("DME LLM Wrangler")
 with st.sidebar:
     st.header("LLM Configuration")
     model = "gpt-3.5-turbo"
-    temperature = st.slider("Temperature", 0.0, 1.0, 0.4)
-    max_tokens = st.slider("Max Tokens", 100, 2000, 500)
+    temperature = st.slider("Temperature", 0.0, 1.0, 0.9)
+    max_tokens = st.slider("Max Tokens", 100, 2000, 1400)
 
 system_prompt = st.text_area(
     "System Prompt",
