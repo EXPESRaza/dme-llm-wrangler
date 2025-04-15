@@ -73,3 +73,7 @@ Only include fields relevant to the note. Omit fields not mentioned.
 ### Sample User Prompt for the above
 
 "Patient requires a full face CPAP mask with humidifier due to AHI > 20. Ordered by Dr. Cameron."
+
+## Application UI
+![image](https://github.com/user-attachments/assets/355d23c4-02f6-4ba6-9ed9-cf2ba35e3010)
+
