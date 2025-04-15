@@ -61,7 +61,7 @@ Use this suggested JSON schema:
 Only include fields relevant to the note. Omit fields not mentioned.
 
 ### Sample Schema to be used in the System Prompt
-
+```json
 {
 "device": "",
 "mask_type": "",
@@ -69,7 +69,7 @@ Only include fields relevant to the note. Omit fields not mentioned.
 "qualifier": "",
 "ordering_provider": ""
 }
-
+```
 ### Sample User Prompt for the above
 
 "Patient requires a full face CPAP mask with humidifier due to AHI > 20. Ordered by Dr. Cameron."
