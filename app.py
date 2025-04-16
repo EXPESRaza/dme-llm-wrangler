@@ -34,6 +34,6 @@ if st.button("Extract Structured Data") and user_input:
             )
             st.code(response, language="json")
             st.success("Done!")
-            st.caption(f"Response time: {round(time.time() - start, 2)}s | Tokens used: {usage}")
+            st.caption(f"Response time: {round(time.time() - start, 2)}s | Prompt tokens: {usage.prompt_tokens} | Completion tokens: {usage.completion_tokens} | Total tokens used: {usage.total_tokens}")
         except Exception as e:
             st.error(f"Error: {e}")
