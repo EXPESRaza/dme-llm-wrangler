@@ -6,7 +6,7 @@ from utils.extractors import extract_structured_data
 from config.settings import get_openai_client
 
 st.set_page_config(page_title="DME LLM Wrangler", layout="wide")
-st.title("DME LLM Wrangler")
+st.title("The Prompt Wrangler")
 
 with st.sidebar:
     st.header("LLM Configuration")
