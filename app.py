@@ -11,8 +11,8 @@ st.title("The Prompt Wrangler")
 with st.sidebar:
     st.header("LLM Configuration")
     model = "gpt-3.5-turbo"
-    temperature = st.slider("Temperature", 0.0, 1.0, 0.9)
-    max_tokens = st.slider("Max Tokens", 100, 2000, 1400)
+    temperature = st.slider("Temperature", 0.0, 1.0, 0.7)
+    max_tokens = st.slider("Max Tokens", 100, 4096, 1400)
 
 system_prompt = st.text_area(
     "System Prompt",
