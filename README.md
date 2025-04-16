@@ -1,4 +1,4 @@
-# 🩺 DME LLM Wrangler (THE PROMPT WRANGLER)
+# 🩺 THE PROMPT WRANGLER
 
 Extract structured data from messy clinical notes using OpenAI's LLMs.
 
@@ -75,5 +75,6 @@ Only include fields relevant to the note. Omit fields not mentioned.
 "Patient requires a full face CPAP mask with humidifier due to AHI > 20. Ordered by Dr. Cameron."
 
 ## Application UI
-![image](https://github.com/user-attachments/assets/355d23c4-02f6-4ba6-9ed9-cf2ba35e3010)
+![image](https://github.com/user-attachments/assets/b2fd5fe9-1003-484b-99f3-a6748875ae05)
+
 
